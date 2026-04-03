@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-            <img src="../../src/assets/Logo.jpeg" alt="Vkm Logo"   style={{width:"150px", borderRadius:'15px'}}/>
+            <img src="../../Logo.jpeg" alt="Vkm Logo"   style={{width:"150px", borderRadius:'15px'}}/>
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-4">
               Smart Employee Tracking and Payroll Automation Platform

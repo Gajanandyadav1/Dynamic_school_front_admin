@@ -35,7 +35,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
              
-            <img src="../../src/assets/sss.png" alt="Vkm Logo"   style={{width:"150px"}}/>
+            <img src="../sss.png" alt="Vkm Logo"   style={{width:"150px"}}/>
           </div>
 
           {/* Desktop Links */}
