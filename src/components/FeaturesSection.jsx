@@ -7,7 +7,6 @@ import {  MapPin, Navigation, Route, DollarSign, ClipboardList,
 
 const features = [
   {
-    s
     icon: MapPin,
     title: "GPS Attendance Tracking",
     desc: "Employees check in and check out using GPS-enabled mobile attendance.",
