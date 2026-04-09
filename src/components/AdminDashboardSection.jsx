@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Users, Clock, DollarSign, Receipt, CalendarCheck, MapPin } from "lucide-react";
 
+
 const modules = [
   { icon: Users, title: "Employee Management", color: "bg-blue-500" },
   { icon: Clock, title: "Attendance Monitoring", color: "bg-green-500" },

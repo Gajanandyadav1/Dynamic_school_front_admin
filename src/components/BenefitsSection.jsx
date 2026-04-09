@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ShieldCheck, MapPin, Zap, TrendingUp, Building2 } from "lucide-react";
 
+
+
 const benefits = [
   { icon: ShieldCheck, title: "Reduce Fake Attendance", desc: "GPS verification ensures only genuine check-ins from actual work locations." },
   { icon: MapPin, title: "Track Field Employees Efficiently", desc: "Real-time location monitoring with route history and distance calculations." },
