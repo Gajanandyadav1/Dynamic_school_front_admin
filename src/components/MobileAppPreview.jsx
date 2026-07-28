@@ -65,6 +65,7 @@ export default function MobileAppPreview() {
         >
           <span className="inline-block text-sm font-semibold text-[#00C896] bg-[#00C896]/10 rounded-full px-4 py-1.5 mb-4">
             Mobile App
+            
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
             Powerful Mobile Experience
