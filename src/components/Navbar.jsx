@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "../../public/sss.png"
+
 const links = ["Features", "How It Works", "Pricing", "Screenshots", "Contact"];
 
 export default function Navbar() {
