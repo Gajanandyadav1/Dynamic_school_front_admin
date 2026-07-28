@@ -5,6 +5,7 @@ import { Check, Shield, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const includes = [
+  
   "Software Deployment",
   "Mobile App Setup (Android + iOS)",
   "Admin Training & Onboarding",
