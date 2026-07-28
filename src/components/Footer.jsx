@@ -64,9 +64,11 @@ export default function Footer() {
             <p className="text-sm text-white/30">
             <b className="text-white/60">E-mail : </b>  gsmalhotra@malhotrait.in
             </p> <br></br>
+            
             <p className="text-sm text-white/30"> 
            <b className="text-white/60">   Address </b>: 29 aaditya nagar aamer jaipur 302028
             </p> <br/>
+
             <p className="text-sm text-white/30">
            <b className="text-white/60">   Mobile </b>: 7410946111
             </p>
