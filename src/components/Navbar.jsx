@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import logo from "../../public/sss.png"
 const links = ["Features", "How It Works", "Pricing", "Screenshots", "Contact"];
 
 export default function Navbar() {
@@ -35,7 +35,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
              
-            <img src="../sss.png" alt="Vkm Logo"   style={{width:"150px"}}/>
+            <img src={logo} alt="Vkm Logo"   style={{width:"150px"}}/>
           </div>
 
           {/* Desktop Links */}

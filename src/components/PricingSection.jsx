@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Starter",
-    price: "₹3,000",
+    price: "₹5,000",
     period: "/ month",
     employees: "Up to 10 employees",
     features: [
@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: "Growth",
-    price: "₹5,000",
+    price: "₹8,000",
     period: "/ month",
     employees: "11 – 20 employees",
     features: [
@@ -37,7 +37,7 @@ const plans = [
   },
   {
     name: "Business",
-    price: "₹10,000",
+    price: "₹15,000",
     period: "/ month",
     employees: "21 – 50 employees",
     features: [
@@ -52,9 +52,9 @@ const plans = [
   },
   {
     name: "Enterprise",
-    price: "₹10,000",
+    price: "₹15,000",
     period: "/ month (first 50)",
-    employees: "+ ₹149/employee/month after 50",
+    employees: "+ ₹500/employee/month after 50",
     features: [
       "Everything in Business",
       "Unlimited Employees",

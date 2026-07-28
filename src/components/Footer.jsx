@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
-
+import logo from "../../public/Logo.jpeg"
 const links = [
   { label: "Features", id: "features" },
   { label: "Pricing", id: "pricing" },
@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-            <img src="../../Logo.jpeg" alt="Vkm Logo"   style={{width:"150px", borderRadius:'15px'}}/>
+            <img src={logo} alt="Vkm Logo"   style={{width:"150px", borderRadius:'15px'}}/>
             </div>
             <p className="text-white/40 text-sm leading-relaxed mb-4">
               Smart Employee Tracking and Payroll Automation Platform
@@ -51,7 +51,7 @@ export default function Footer() {
           {/* Social + Contact */}
           <div>
             <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">Connect</h4>
-            <div className="flex gap-3 mb-6">
+            {/* <div className="flex gap-3 mb-6">
               {["X", "in", "f", "ig"].map((icon) => (
                 <div
                   key={icon}
@@ -60,9 +60,15 @@ export default function Footer() {
                   <span className="text-xs font-bold">{icon}</span>
                 </div>
               ))}
-            </div>
+            </div> */}
             <p className="text-sm text-white/30">
-              info@malhotraitinnovations.com
+            <b className="text-white/60">E-mail : </b>  gsmalhotra@malhotrait.in
+            </p> <br></br>
+            <p className="text-sm text-white/30"> 
+           <b className="text-white/60">   Address </b>: 29 aaditya nagar aamer jaipur 302028
+            </p> <br/>
+            <p className="text-sm text-white/30">
+           <b className="text-white/60">   Mobile </b>: 7410946111
             </p>
           </div>
         </div>
